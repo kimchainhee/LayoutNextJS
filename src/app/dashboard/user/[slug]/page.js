@@ -34,7 +34,7 @@ export default function UserDetail({ params }) {
     <Grid container spacing={2}>
       <Grid item xs>
         <Typography variant='h6' paragraph>
-          <b>UserDetail {params.slug.slice(7, 99)}</b>
+          <b>User detail {params.slug.slice(7, 99)}</b>
         </Typography>
       </Grid>
       <Grid item>
