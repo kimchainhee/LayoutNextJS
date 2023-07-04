@@ -1,5 +1,5 @@
 'use client'
-import AtomLink from "@/app/atoms/Link/page";
+import AtomLink from "@/app/atoms/Link";
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Typography, Grid, TextField, Button, Box } from "@mui/material";
 import React, { useState, useEffect } from "react"
 
