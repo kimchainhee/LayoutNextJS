@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
+import AtomLink from '@/app/atoms/Link/page';
 
 function preventDefault(event) {
   event.preventDefault();
@@ -19,9 +19,9 @@ export default function Deposits() {
         on 15 March, 2019
       </Typography>
       <div>
-        <Link color="primary" href="#" onClick={preventDefault}>
+        <AtomLink color="primary" href="#" onClick={preventDefault}>
           View balance
-        </Link>
+        </AtomLink>
       </div>
     </React.Fragment>
   );

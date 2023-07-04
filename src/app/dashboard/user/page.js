@@ -1,6 +1,6 @@
 'use client'
+import AtomLink from "@/app/atoms/Link/page";
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Typography, Grid, TextField, Button, Box } from "@mui/material";
-import Link from "next/link";
 import React, { useState, useEffect } from "react"
 
 const createArray = (max = 10) => {
@@ -127,7 +127,7 @@ export default function ListUser() {
                         <Typography
                           variant='body2'
                           color='primary'
-                          component={Link}
+                          component={AtomLink}
                           href={`/dashboard/user/slug:${row.name}`}
                           sx={{
                             cursor: 'pointer',
