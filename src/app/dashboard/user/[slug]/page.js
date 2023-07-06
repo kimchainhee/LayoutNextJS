@@ -10,7 +10,7 @@ import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
 import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
-import imgFeed from '@/app/images/aLuanCuoiMim.png';
+import imgFeed from '@/app/Atomic/images/aLuanCuoiMim.png';
 import AtomLink from "@/app/Atomic/atoms/Link";
 
 const FEEDPHOTO = imgFeed;
