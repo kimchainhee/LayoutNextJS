@@ -11,7 +11,7 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import AtomLink from '@/app/atoms/Link';
+import AtomLink from '@/app/Atomic/atoms/Link';
 
 function Copyright(props) {
   return (

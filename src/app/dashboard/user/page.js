@@ -1,5 +1,5 @@
 'use client'
-import AtomLink from "@/app/atoms/Link";
+import AtomLink from "@/app/Atomic/atoms/Link";
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Typography, Grid, TextField, Button, Box } from "@mui/material";
 import React, { useState, useEffect } from "react"
 
@@ -128,7 +128,7 @@ export default function ListUser() {
                           variant='body2'
                           color='primary'
                           component={AtomLink}
-                          href={`/dashboard/user/slug:${row.name}`}
+                          href={`/dashboard/user/${row.name}`}
                           sx={{
                             cursor: 'pointer',
                             textDecoration: 'none',

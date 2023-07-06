@@ -25,7 +25,7 @@ import PeopleIcon from '@mui/icons-material/People';
 // import LayersIcon from '@mui/icons-material/Layers';
 // import AssignmentIcon from '@mui/icons-material/Assignment';
 import { Container } from '@mui/material';
-import AtomLink from '@/app/atoms/Link';
+import AtomLink from '@/app/Atomic/atoms/Link';
 
 const mainListItems = (
   <React.Fragment>

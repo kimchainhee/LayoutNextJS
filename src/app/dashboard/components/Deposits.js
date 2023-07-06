@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
-import AtomLink from '@/app/atoms/Link';
+import AtomLink from '@/app/Atomic/atoms/Link';
 
 function preventDefault(event) {
   event.preventDefault();

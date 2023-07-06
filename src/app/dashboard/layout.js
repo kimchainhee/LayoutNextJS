@@ -1,4 +1,4 @@
-import AppbarDemo from "../organisms/AppbarDemo"
+import AppbarDemo from "../Atomic/organisms/AppbarDemo"
 
 export const metadata = {
   title: 'Dashboard | Hahalolo',
