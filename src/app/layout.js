@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width initial-scale=1.0" />
         <meta name="application-name" content="Next.js" />
         <meta name="keywords" content="Next.js,React,JavaScript" />
+        <meta property="image" content="https://media.hahalolo.com/2023/04/21/09/04/b229a2e095cea60f416bcc8852de1af4-1682067856_1080xauto_high.jpg.webp" />
         <meta property="og:image" content="https://media.hahalolo.com/2023/04/21/09/04/b229a2e095cea60f416bcc8852de1af4-1682067856_1080xauto_high.jpg.webp" />
         <link rel="icon" href="https://test-html.hahalolo.com/cdn/logo/hahalolo/favicon.ico" type="image/x-icon" sizes="any" />
       </head>
